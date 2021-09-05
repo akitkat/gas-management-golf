@@ -1,0 +1,6 @@
+.git
+.prettierrc
+dist
+node_modules
+.clasp.json
+src/config
