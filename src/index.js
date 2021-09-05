@@ -1,2 +1,3 @@
-console.log("Hello World!");
-T
+import onOpen from './func/onOpen';
+
+global.onOpen = (e) => onOpen(e);
