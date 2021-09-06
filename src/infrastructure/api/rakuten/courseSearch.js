@@ -10,6 +10,7 @@ export default class extends BaseApi {
 
   fetchAll() {
     this.config.parameters.areaCode = 0;
+    this.config.parameters.reservation = 1;
     this.config.parameters.page = 1;
     const tmp = this.fetch();
 
