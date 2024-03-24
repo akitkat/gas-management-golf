@@ -5,10 +5,10 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node_modules/webpack-cli/bin/cli.js --mode=production --node-env=production",
-    "build:dev": "node_modules/webpack-cli/bin/cli.js --mode=development",
-    "build:prod": "node_modules/webpack-cli/bin/cli.js --mode=production --node-env=production",
-    "watch": "node_modules/webpack-cli/bin/cli.js --watch",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
     "deploy": "npm run build:prod && cp appsscript.json dist/ && clasp push"
   },
   "repository": {
@@ -24,8 +24,9 @@
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.4",
-    "@webpack-cli/generators": "^2.3.0",
+    "@webpack-cli/generators": "^3.0.7",
     "babel-loader": "^8.2.2",
+    "clasp": "^1.0.0",
     "gas-webpack-plugin": "^2.1.0",
     "prettier": "^2.3.2",
     "query-string": "^7.0.1",
