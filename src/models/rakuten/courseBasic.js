@@ -12,7 +12,8 @@ export default class {
     golfCourseDetailUrl,
     reserveCalUrl,
     ratingUrl,
-    golfCourseImageUrl
+    golfCourseImageUrl,
+    evaluation
   ) {
     this.golfCourseId = golfCourseId;
     this.golfCourseName = golfCourseName;
@@ -27,6 +28,7 @@ export default class {
     this.reserveCalUrl = reserveCalUrl;
     this.ratingUrl = ratingUrl;
     this.golfCourseImageUrl = golfCourseImageUrl;
+    this.evaluation = evaluation;
   }
 
   toArray() {
@@ -44,6 +46,7 @@ export default class {
       this.reserveCalUrl,
       this.ratingUrl,
       this.golfCourseImageUrl,
+      this.evaluation,
     ];
   }
 }

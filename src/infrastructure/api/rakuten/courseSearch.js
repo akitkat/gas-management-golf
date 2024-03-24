@@ -35,7 +35,8 @@ export default class extends BaseApi {
         e?.golfCourseDetailUrl,
         e?.reserveCalUrl,
         e?.ratingUrl,
-        e?.golfCourseImageUrl
+        e?.golfCourseImageUrl,
+        e?.evaluation
       );
     });
   }
