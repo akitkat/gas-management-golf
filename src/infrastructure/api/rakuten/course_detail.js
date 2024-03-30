@@ -10,7 +10,7 @@ export default class CourseDetailApi extends BaseApi {
 
   fetch(golfCourseId) {
     this.config.parameters.golfCourseId = golfCourseId;
-    const res = this.fetch();
+    const res = super.fetch();
 
     return new CourseDetail(
       res?.golfCourseId,
@@ -70,30 +70,30 @@ export default class CourseDetailApi extends BaseApi {
       res?.voiceUrl,
       res?.layoutUrl,
       res?.routeMapUrl,
-      res?.month,
-      res?.planName,
-      res?.planDate,
-      res?.service,
-      res?.price,
-      res?.basePrice,
-      res?.salesTax,
-      res?.courseUseTax,
-      res?.otherTax,
-      res?.title,
-      res?.nickName,
-      res?.prefecture,
-      res?.age,
-      res?.sex,
-      res?.times,
-      res?.evaluation,
-      res?.staff,
-      res?.facility,
-      res?.meal,
-      res?.course,
-      res?.costperformance,
-      res?.distance,
-      res?.fairway,
-      res?.comment  
+      // res?.month,
+      // res?.planName,
+      // res?.planDate,
+      // res?.service,
+      // res?.price,
+      // res?.basePrice,
+      // res?.salesTax,
+      // res?.courseUseTax,
+      // res?.otherTax,
+      // res?.title,
+      // res?.nickName,
+      // res?.prefecture,
+      // res?.age,
+      // res?.sex,
+      // res?.times,
+      // res?.evaluation,
+      // res?.staff,
+      // res?.facility,
+      // res?.meal,
+      // res?.course,
+      // res?.costperformance,
+      // res?.distance,
+      // res?.fairway,
+      // res?.comment  
     );
   }
 }
