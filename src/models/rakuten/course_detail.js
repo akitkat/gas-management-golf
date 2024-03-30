@@ -57,30 +57,30 @@ export default class CourseDetail {
     voiceUrl,
     layoutUrl,
     routeMapUrl,
-    month,
-    planName,
-    planDate,
-    service,
-    price,
-    basePrice,
-    salesTax,
-    courseUseTax,
-    otherTax,
-    title,
-    nickName,
-    prefecture,
-    age,
-    sex,
-    times,
-    evaluation,
-    staff,
-    facility,
-    meal,
-    course,
-    costperformance,
-    distance,
-    fairway,
-    comment
+    // month,
+    // planName,
+    // planDate,
+    // service,
+    // price,
+    // basePrice,
+    // salesTax,
+    // courseUseTax,
+    // otherTax,
+    // title,
+    // nickName,
+    // prefecture,
+    // age,
+    // sex,
+    // times,
+    // evaluation,
+    // staff,
+    // facility,
+    // meal,
+    // course,
+    // costperformance,
+    // distance,
+    // fairway,
+    // comment
   ) {
     this.golfCourseId = golfCourseId;
     this.golfCourseName = golfCourseName;
@@ -139,30 +139,30 @@ export default class CourseDetail {
     this.voiceUrl = voiceUrl;
     this.layoutUrl = layoutUrl;
     this.routeMapUrl = routeMapUrl;
-    this.month = month;
-    this.planName = planName;
-    this.planDate = planDate;
-    this.service = service;
-    this.price = price;
-    this.basePrice = basePrice;
-    this.salesTax = salesTax;
-    this.courseUseTax = courseUseTax;
-    this.otherTax = otherTax;
-    this.title = title;
-    this.nickName = nickName;
-    this.prefecture = prefecture;
-    this.age = age;
-    this.sex = sex;
-    this.times = times;
-    this.evaluation = evaluation;
-    this.staff = staff;
-    this.facility = facility;
-    this.meal = meal;
-    this.course = course;
-    this.costperformance = costperformance;
-    this.distance = distance;
-    this.fairway = fairway;
-    this.comment = comment;
+    // this.month = month;
+    // this.planName = planName;
+    // this.planDate = planDate;
+    // this.service = service;
+    // this.price = price;
+    // this.basePrice = basePrice;
+    // this.salesTax = salesTax;
+    // this.courseUseTax = courseUseTax;
+    // this.otherTax = otherTax;
+    // this.title = title;
+    // this.nickName = nickName;
+    // this.prefecture = prefecture;
+    // this.age = age;
+    // this.sex = sex;
+    // this.times = times;
+    // this.evaluation = evaluation;
+    // this.staff = staff;
+    // this.facility = facility;
+    // this.meal = meal;
+    // this.course = course;
+    // this.costperformance = costperformance;
+    // this.distance = distance;
+    // this.fairway = fairway;
+    // this.comment = comment;
   }
 
   toArray() {
@@ -224,30 +224,34 @@ export default class CourseDetail {
       this.voiceUrl,
       this.layoutUrl,
       this.routeMapUrl,
-      this.month,
-      this.planName,
-      this.planDate,
-      this.service,
-      this.price,
-      this.basePrice,
-      this.salesTax,
-      this.courseUseTax,
-      this.otherTax,
-      this.title,
-      this.nickName,
-      this.prefecture,
-      this.age,
-      this.sex,
-      this.times,
-      this.evaluation,
-      this.staff,
-      this.facility,
-      this.meal,
-      this.course,
-      this.costperformance,
-      this.distance,
-      this.fairway,
-      this.comment
+
+      // newPlans[]
+      // this.month,
+      // this.planName,
+      // this.planDate,
+      // this.service,
+      // this.price,
+      // this.basePrice,
+      // this.salesTax,
+      // this.courseUseTax,
+      // this.otherTax,
+
+      // ratings[]
+      // this.title,
+      // this.nickName,
+      // this.prefecture,
+      // this.age,
+      // this.sex,
+      // this.times,
+      // this.evaluation,
+      // this.staff,
+      // this.facility,
+      // this.meal,
+      // this.course,
+      // this.costperformance,
+      // this.distance,
+      // this.fairway,
+      // this.comment
     ];
   }
 }
