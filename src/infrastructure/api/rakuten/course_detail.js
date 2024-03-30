@@ -10,7 +10,7 @@ export default class CourseDetailApi extends BaseApi {
 
   fetch(golfCourseId) {
     this.config.parameters.golfCourseId = golfCourseId;
-    const res = super.fetch();
+    const res = super.fetch()["Item"];
 
     return new CourseDetail(
       res?.golfCourseId,
