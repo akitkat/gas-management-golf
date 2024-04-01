@@ -17,4 +17,6 @@ export default () => {
     i++;
     return new CourseDetailApi().fetch(courseDetail.golfCourseId);
   });
+
+  new CourseDetailSheet().replaceAll(replaceCourseDetails);
 };
