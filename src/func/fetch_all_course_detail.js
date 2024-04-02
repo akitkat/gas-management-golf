@@ -10,7 +10,7 @@ export default () => {
       return courseDetail;
     }
 
-    if (100 <= i) {
+    if (10 <= i) {
       return courseDetail;
     }
 
