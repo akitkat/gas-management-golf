@@ -1,5 +1,5 @@
 import BaseSpreadSheet from './baseSpreadSheet';
-import GolfCourseList from '../../models/spreadsheet/golfCourseList'
+import CourseBasic from '../../models/course_basic'
 
 export default class extends BaseSpreadSheet {
   constructor() {
@@ -10,7 +10,7 @@ export default class extends BaseSpreadSheet {
     return super
       .selectAll()
       .map((e) => {
-        return new GolfCourseList(...e);
+        return new CourseBasic(...e);
       });
   }
 }
