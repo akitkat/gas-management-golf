@@ -1,5 +1,5 @@
 import BaseApi from "../baseApi";
-import courseBasic from "../../../models/rakuten/courseBasic";
+import CourseBasic from "../../../models/course_basic";
 
 export default class extends BaseApi {
   urlPath = "GoraGolfCourseSearch/20170623";
@@ -22,7 +22,7 @@ export default class extends BaseApi {
     }
 
     return rows.map((e) => {
-      return new courseBasic(
+      return new CourseBasic(
         e?.golfCourseId,
         e?.golfCourseName,
         e?.golfCourseAbbr,
