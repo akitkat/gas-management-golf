@@ -1,5 +1,5 @@
 import BaseApi from "../baseApi";
-import CourseDetail from "../../../models/rakuten/course_detail";
+import CourseDetail from "../../../models/course_detail";
 
 export default class CourseDetailApi extends BaseApi {
   urlPath = "GoraGolfCourseDetail/20170623";
