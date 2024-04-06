@@ -8,9 +8,9 @@ export default class JalanCourseDetailApi extends BaseApi {
 
   fetch(clubCd) {
     this.urlPath = clubCd;
-    const res = super.fetch()['clubDto'][0];
+    const res = super.fetch();
 
-    return new JalanCourseDetail(
+    return res.size === 0 ? null : new JalanCourseDetail(
       res?.clubCd,
       res?.acareUsable,
       res?.accessBus,
