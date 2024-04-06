@@ -4,8 +4,8 @@ import { stringify } from 'query-string';
 export default class BaseApi {
   config = {};
 
-  constructor() {
-    this.config = config['api'][this.propertyName];
+  constructor(propertyName) {
+    this.config = config['api'][propertyName];
   }
 
   fetch() {
