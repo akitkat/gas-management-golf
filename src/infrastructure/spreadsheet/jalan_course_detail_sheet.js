@@ -1,7 +1,7 @@
 import BaseSpreadSheet from './baseSpreadSheet';
 import JalanCourseDetail from '../../models/jalan_course_detail';
 
-export default class CourseDetailSheet extends BaseSpreadSheet {
+export default class JalanCourseDetailSheet extends BaseSpreadSheet {
   constructor() {
     super('JalanCourseDetailSheet');
   }
