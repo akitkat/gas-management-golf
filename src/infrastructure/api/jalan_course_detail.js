@@ -13,7 +13,7 @@ export default class JalanCourseDetailApi extends BaseApi {
       return null;
     }
 
-    const row = res['clubDto'][0];
+    const row = res[0]['clubDto'];
 
     return new JalanCourseDetail(
       row?.clubCd,
