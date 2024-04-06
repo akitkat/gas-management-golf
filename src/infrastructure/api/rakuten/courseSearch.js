@@ -2,11 +2,8 @@ import BaseApi from "../baseApi";
 import CourseBasic from "../../../models/course_basic";
 
 export default class extends BaseApi {
+  propertyName = 'gora'
   urlPath = "GoraGolfCourseSearch/20170623";
-
-  constructor() {
-    super("gora");
-  }
 
   fetchAll() {
     this.config.parameters.areaCode = 0;

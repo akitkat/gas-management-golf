@@ -2,11 +2,8 @@ import BaseApi from "../baseApi";
 import CourseDetail from "../../../models/course_detail";
 
 export default class CourseDetailApi extends BaseApi {
+  propertyName = 'gora'
   urlPath = "GoraGolfCourseDetail/20170623";
-
-  constructor() {
-    super("gora");
-  }
 
   fetch(golfCourseId) {
     this.config.parameters.golfCourseId = golfCourseId;
