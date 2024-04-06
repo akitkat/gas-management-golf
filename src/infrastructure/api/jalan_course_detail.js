@@ -10,7 +10,7 @@ export default class JalanCourseDetailApi extends BaseApi {
     this.urlPath = clubCds.join(',');
 
     return super.fetch().map((row) => {
-      new JalanCourseDetail(
+      return new JalanCourseDetail(
         row?.clubCd,
         row?.acareUsable,
         row?.accessBus,
