@@ -15,7 +15,13 @@ export default () => {
     }
 
     i++;
-    return new JalanCourseDetailApi().fetch(courseDetail.clubCd);
+    const res = new JalanCourseDetailApi().fetch(courseDetail.clubCd);
+    if (res === null) {
+      courseDetail.name = 'null';
+      return courseDetail;
+    }
+
+    return res;
   });
 
   new JalanCourseDetailSheet().replaceAll(replaceCourseDetails);
