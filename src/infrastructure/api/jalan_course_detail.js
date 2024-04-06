@@ -8,9 +8,8 @@ export default class JalanCourseDetailApi extends BaseApi {
 
   fetchAllByClubCds(clubCds) {
     this.urlPath = clubCds.join(',');
-    const res = super.fetch();
 
-    return res.map((row) => {
+    return super.fetch().map((row) => {
       new JalanCourseDetail(
         row?.clubCd,
         row?.acareUsable,
