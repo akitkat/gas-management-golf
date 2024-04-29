@@ -5,7 +5,7 @@ export default class JalanCourseDetail {
     accessBus,
     accessCar,
     accessTrain,
-    address,
+    // address,
     approvalContent,
     approvalDate,
     approvalFlg,
@@ -40,7 +40,7 @@ export default class JalanCourseDetail {
     courseDesigner,
     coursePresentation,
     courseSize,
-    courseType,
+    // courseType,
     createModuleCd,
     createUserCd,
     createdAt,
@@ -53,7 +53,7 @@ export default class JalanCourseDetail {
     gdoFrameFlg,
     gdoPlanFlg,
     greenBent,
-    greenCount,
+    // greenCount,
     greenKorai,
     greenOther,
     holeCountAll,
@@ -61,7 +61,7 @@ export default class JalanCourseDetail {
     hotSpringNote,
     hotel,
     id,
-    information,
+    jalanInformation,
     inquiryEigyoCd,
     kana,
     latitude,
@@ -84,7 +84,7 @@ export default class JalanCourseDetail {
     pointUpPostingStatus,
     pointUsable,
     ponpareUsable,
-    postalCode,
+    // postalCode,
     practiceSpace,
     practiceSpaceNote,
     prefectureId,
@@ -102,7 +102,7 @@ export default class JalanCourseDetail {
     rsvDedlineHmReq,
     sCd,
     seq,
-    shoes,
+    // shoes,
     shoesNote,
     stayPlanUsable,
     telNo,
@@ -122,7 +122,7 @@ export default class JalanCourseDetail {
     this.accessBus = accessBus;
     this.accessCar = accessCar;
     this.accessTrain = accessTrain;
-    this.address = address;
+    // this.address = address;
     this.approvalContent = approvalContent;
     this.approvalDate = approvalDate;
     this.approvalFlg = approvalFlg;
@@ -157,7 +157,7 @@ export default class JalanCourseDetail {
     this.courseDesigner = courseDesigner;
     this.coursePresentation = coursePresentation;
     this.courseSize = courseSize;
-    this.courseType = courseType;
+    // this.courseType = courseType;
     this.createModuleCd = createModuleCd;
     this.createUserCd = createUserCd;
     this.createdAt = createdAt;
@@ -170,7 +170,7 @@ export default class JalanCourseDetail {
     this.gdoFrameFlg = gdoFrameFlg;
     this.gdoPlanFlg = gdoPlanFlg;
     this.greenBent = greenBent;
-    this.greenCount = greenCount;
+    // this.greenCount = greenCount;
     this.greenKorai = greenKorai;
     this.greenOther = greenOther;
     this.holeCountAll = holeCountAll;
@@ -178,7 +178,7 @@ export default class JalanCourseDetail {
     this.hotSpringNote = hotSpringNote;
     this.hotel = hotel;
     this.id = id;
-    this.information = information;
+    this.jalanInformation = jalanInformation;
     this.inquiryEigyoCd = inquiryEigyoCd;
     this.kana = kana;
     this.latitude = latitude;
@@ -201,7 +201,7 @@ export default class JalanCourseDetail {
     this.pointUpPostingStatus = pointUpPostingStatus;
     this.pointUsable = pointUsable;
     this.ponpareUsable = ponpareUsable;
-    this.postalCode = postalCode;
+    // this.postalCode = postalCode;
     this.practiceSpace = practiceSpace;
     this.practiceSpaceNote = practiceSpaceNote;
     this.prefectureId = prefectureId;
@@ -219,7 +219,7 @@ export default class JalanCourseDetail {
     this.rsvDedlineHmReq = rsvDedlineHmReq;
     this.sCd = sCd;
     this.seq = seq;
-    this.shoes = shoes;
+    // this.shoes = shoes;
     this.shoesNote = shoesNote;
     this.stayPlanUsable = stayPlanUsable;
     this.telNo = telNo;
@@ -242,7 +242,7 @@ export default class JalanCourseDetail {
       this.accessBus,
       this.accessCar,
       this.accessTrain,
-      this.address,
+      // this.address,
       this.approvalContent,
       this.approvalDate,
       this.approvalFlg,
@@ -277,7 +277,7 @@ export default class JalanCourseDetail {
       this.courseDesigner,
       this.coursePresentation,
       this.courseSize,
-      this.courseType,
+      // this.courseType,
       this.createModuleCd,
       this.createUserCd,
       this.createdAt,
@@ -290,7 +290,7 @@ export default class JalanCourseDetail {
       this.gdoFrameFlg,
       this.gdoPlanFlg,
       this.greenBent,
-      this.greenCount,
+      // this.greenCount,
       this.greenKorai,
       this.greenOther,
       this.holeCountAll,
@@ -298,7 +298,7 @@ export default class JalanCourseDetail {
       this.hotSpringNote,
       this.hotel,
       this.id,
-      this.information,
+      this.jalanInformation,
       this.inquiryEigyoCd,
       this.kana,
       this.latitude,
@@ -321,7 +321,7 @@ export default class JalanCourseDetail {
       this.pointUpPostingStatus,
       this.pointUsable,
       this.ponpareUsable,
-      this.postalCode,
+      // this.postalCode,
       this.practiceSpace,
       this.practiceSpaceNote,
       this.prefectureId,
@@ -339,7 +339,7 @@ export default class JalanCourseDetail {
       this.rsvDedlineHmReq,
       this.sCd,
       this.seq,
-      this.shoes,
+      // this.shoes,
       this.shoesNote,
       this.stayPlanUsable,
       this.telNo,
