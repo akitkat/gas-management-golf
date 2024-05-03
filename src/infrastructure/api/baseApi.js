@@ -16,6 +16,7 @@ export default class BaseApi {
       return JSON.parse(res);
     } catch (e) {
       console.error('fetch error: ', url, e);
+      return [];
     } finally {
       Utilities.sleep(1000);
     }
