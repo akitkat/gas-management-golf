@@ -10,9 +10,14 @@ export default class BaseApi {
 
   fetch() {
     const url = `${this.config.baseUrl + this.urlPath}?${stringify(this.config.parameters)}`;
-    const res = UrlFetchApp.fetch(url).getContentText();
-    Utilities.sleep(1000);
-    console.log('fetch: ', url, res);
-    return JSON.parse(res);
+    try {
+      const res = UrlFetchApp.fetch(url).getContentText();
+      console.log('fetch: ', url, res);
+      return JSON.parse(res);
+    } catch (e) {
+      console.error('fetch error: ', url, e);
+    } finally {
+      Utilities.sleep(1000);
+    }
   }
 }
