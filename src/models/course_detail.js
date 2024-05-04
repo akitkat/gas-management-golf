@@ -66,11 +66,13 @@ export default class CourseDetail {
     // salesTax,
     // courseUseTax,
     // otherTax,
+    rating1Title,
     rating1NickName,
     rating1Age,
     rating1Sex,
     rating1Evaluation,
     rating1Comment,
+    rating2Title,
     rating2NickName,
     rating2Age,
     rating2Sex,
@@ -144,11 +146,13 @@ export default class CourseDetail {
     // this.courseUseTax = courseUseTax;
     // this.otherTax = otherTax;
 
+    this.rating1Title = rating1Title;
     this.rating1NickName = rating1NickName;
     this.rating1Age = rating1Age;
     this.rating1Sex = rating1Sex;
     this.rating1Evaluation = rating1Evaluation;
     this.rating1Comment = rating1Comment;
+    this.rating2Title = rating2Title;
     this.rating2NickName = rating2NickName;
     this.rating2Age = rating2Age;
     this.rating2Sex = rating2Sex;
@@ -245,6 +249,7 @@ export default class CourseDetail {
       // this.comment
 
       // ratings[0]
+      this.rating1Title,
       this.rating1NickName,
       this.rating1Age,
       this.rating1Sex,
@@ -252,6 +257,7 @@ export default class CourseDetail {
       this.rating1Comment,
 
       // ratings[1]
+      this.rating2Title,
       this.rating2NickName,
       this.rating2Age,
       this.rating2Sex,

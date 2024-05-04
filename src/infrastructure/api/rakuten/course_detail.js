@@ -80,11 +80,13 @@ export default class CourseDetailApi extends BaseApi {
       // res?.courseUseTax,
       // res?.otherTax,
 
+      res?.ratings[0]?.title,
       res?.ratings[0]?.nickName,
       res?.ratings[0]?.age,
       res?.ratings[0]?.sex,
       res?.ratings[0]?.evaluation,
       res?.ratings[0]?.comment,
+      res?.ratings[1]?.title,
       res?.ratings[1]?.nickName,
       res?.ratings[1]?.age,
       res?.ratings[1]?.sex,
