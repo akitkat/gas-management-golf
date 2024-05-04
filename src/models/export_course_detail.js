@@ -2,13 +2,20 @@ export default class ExportCourseDetail {
   constructor(
     golfCourseId,
     golfCourseName,
+    golfCourseAbbr,
+    golfCourseNameKana,
     golfCourseCaption,
     information,
     highway,
     ic,
+    icDistance,
+    latitude,
+    longitude,
     postalCode,
     address,
     telephoneNo,
+    faxNo,
+    openDay,
     closeDay,
     creditCard,
     shoes,
@@ -17,6 +24,10 @@ export default class ExportCourseDetail {
     lodgingFacility,
     otherFacility,
     golfCourseImageUrl1,
+    golfCourseImageUrl2,
+    golfCourseImageUrl3,
+    golfCourseImageUrl4,
+    golfCourseImageUrl5,
     weekdayMinPrice,
     baseWeekdayMinPrice,
     holidayMinPrice,
@@ -29,6 +40,10 @@ export default class ExportCourseDetail {
     greenCount,
     holeCount,
     parCount,
+    courseName,
+    courseDistance,
+    longDrivingContest,
+    nearPin,
     ratingNum,
     evaluation,
     staff,
@@ -38,6 +53,20 @@ export default class ExportCourseDetail {
     costperformance,
     distance,
     fairway,
+    reserveCalUrl,
+    voiceUrl,
+    layoutUrl,
+    routeMapUrl,
+    rating1NickName,
+    rating1Age,
+    rating1Sex,
+    rating1Evaluation,
+    rating1Comment,
+    rating2NickName,
+    rating2Age,
+    rating2Sex,
+    rating2Evaluation,
+    rating2Comment,
     clubCd,
     acareUsable,
     accessBus,
@@ -99,8 +128,6 @@ export default class ExportCourseDetail {
     jalanInformation,
     inquiryEigyoCd,
     kana,
-    latitude,
-    longitude,
     maxTeeCount,
     name,
     nrpinHole,
@@ -152,13 +179,20 @@ export default class ExportCourseDetail {
   ) {
     this.golfCourseId = golfCourseId;
     this.golfCourseName = golfCourseName;
+    this.golfCourseAbbr = golfCourseAbbr;
+    this.golfCourseNameKana = golfCourseNameKana;
     this.golfCourseCaption = golfCourseCaption;
     this.information = information;
     this.highway = highway;
     this.ic = ic;
+    this.icDistance = icDistance;
+    this.latitude = latitude;
+    this.longitude = longitude;
     this.postalCode = postalCode;
     this.address = address;
     this.telephoneNo = telephoneNo;
+    this.faxNo = faxNo;
+    this.openDay = openDay;
     this.closeDay = closeDay;
     this.creditCard = creditCard;
     this.shoes = shoes;
@@ -167,6 +201,10 @@ export default class ExportCourseDetail {
     this.lodgingFacility = lodgingFacility;
     this.otherFacility = otherFacility;
     this.golfCourseImageUrl1 = golfCourseImageUrl1;
+    this.golfCourseImageUrl2 = golfCourseImageUrl2;
+    this.golfCourseImageUrl3 = golfCourseImageUrl3;
+    this.golfCourseImageUrl4 = golfCourseImageUrl4;
+    this.golfCourseImageUrl5 = golfCourseImageUrl5;
     this.weekdayMinPrice = weekdayMinPrice;
     this.baseWeekdayMinPrice = baseWeekdayMinPrice;
     this.holidayMinPrice = holidayMinPrice;
@@ -179,6 +217,10 @@ export default class ExportCourseDetail {
     this.greenCount = greenCount;
     this.holeCount = holeCount;
     this.parCount = parCount;
+    this.courseName = courseName;
+    this.courseDistance = courseDistance;
+    this.longDrivingContest = longDrivingContest;
+    this.nearPin = nearPin;
     this.ratingNum = ratingNum;
     this.evaluation = evaluation;
     this.staff = staff;
@@ -188,6 +230,20 @@ export default class ExportCourseDetail {
     this.costperformance = costperformance;
     this.distance = distance;
     this.fairway = fairway;
+    this.reserveCalUrl = reserveCalUrl;
+    this.voiceUrl = voiceUrl;
+    this.layoutUrl = layoutUrl;
+    this.routeMapUrl = routeMapUrl;
+    this.rating1NickName = rating1NickName;
+    this.rating1Age = rating1Age;
+    this.rating1Sex = rating1Sex;
+    this.rating1Evaluation = rating1Evaluation;
+    this.rating1Comment = rating1Comment;
+    this.rating2NickName = rating2NickName;
+    this.rating2Age = rating2Age;
+    this.rating2Sex = rating2Sex;
+    this.rating2Evaluation = rating2Evaluation;
+    this.rating2Comment = rating2Comment;
     this.clubCd = clubCd;
     this.acareUsable = acareUsable;
     this.accessBus = accessBus;
@@ -249,8 +305,6 @@ export default class ExportCourseDetail {
     this.jalanInformation = jalanInformation;
     this.inquiryEigyoCd = inquiryEigyoCd;
     this.kana = kana;
-    this.latitude = latitude;
-    this.longitude = longitude;
     this.maxTeeCount = maxTeeCount;
     this.name = name;
     this.nrpinHole = nrpinHole;
@@ -305,13 +359,20 @@ export default class ExportCourseDetail {
     return [
       this.golfCourseId,
       this.golfCourseName,
+      this.golfCourseAbbr,
+      this.golfCourseNameKana,
       this.golfCourseCaption,
       this.information,
       this.highway,
       this.ic,
+      this.icDistance,
+      this.latitude,
+      this.longitude,
       this.postalCode,
       this.address,
       this.telephoneNo,
+      this.faxNo,
+      this.openDay,
       this.closeDay,
       this.creditCard,
       this.shoes,
@@ -320,6 +381,10 @@ export default class ExportCourseDetail {
       this.lodgingFacility,
       this.otherFacility,
       this.golfCourseImageUrl1,
+      this.golfCourseImageUrl2,
+      this.golfCourseImageUrl3,
+      this.golfCourseImageUrl4,
+      this.golfCourseImageUrl5,
       this.weekdayMinPrice,
       this.baseWeekdayMinPrice,
       this.holidayMinPrice,
@@ -332,6 +397,10 @@ export default class ExportCourseDetail {
       this.greenCount,
       this.holeCount,
       this.parCount,
+      this.courseName,
+      this.courseDistance,
+      this.longDrivingContest,
+      this.nearPin,
       this.ratingNum,
       this.evaluation,
       this.staff,
@@ -341,6 +410,20 @@ export default class ExportCourseDetail {
       this.costperformance,
       this.distance,
       this.fairway,
+      this.reserveCalUrl,
+      this.voiceUrl,
+      this.layoutUrl,
+      this.routeMapUrl,
+      this.rating1NickName,
+      this.rating1Age,
+      this.rating1Sex,
+      this.rating1Evaluation,
+      this.rating1Comment,
+      this.rating2NickName,
+      this.rating2Age,
+      this.rating2Sex,
+      this.rating2Evaluation,
+      this.rating2Comment,
       this.clubCd,
       this.acareUsable,
       this.accessBus,
@@ -402,8 +485,6 @@ export default class ExportCourseDetail {
       this.jalanInformation,
       this.inquiryEigyoCd,
       this.kana,
-      this.latitude,
-      this.longitude,
       this.maxTeeCount,
       this.name,
       this.nrpinHole,
