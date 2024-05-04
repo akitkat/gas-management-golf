@@ -64,8 +64,8 @@ export default class JalanCourseDetail {
     jalanInformation,
     inquiryEigyoCd,
     kana,
-    latitude,
-    longitude,
+    // latitude,
+    // longitude,
     maxTeeCount,
     name,
     nrpinHole,
@@ -181,8 +181,8 @@ export default class JalanCourseDetail {
     this.jalanInformation = jalanInformation;
     this.inquiryEigyoCd = inquiryEigyoCd;
     this.kana = kana;
-    this.latitude = latitude;
-    this.longitude = longitude;
+    // this.latitude = latitude;
+    // this.longitude = longitude;
     this.maxTeeCount = maxTeeCount;
     this.name = name;
     this.nrpinHole = nrpinHole;
@@ -301,8 +301,8 @@ export default class JalanCourseDetail {
       this.jalanInformation,
       this.inquiryEigyoCd,
       this.kana,
-      this.latitude,
-      this.longitude,
+      // this.latitude,
+      // this.longitude,
       this.maxTeeCount,
       this.name,
       this.nrpinHole,
