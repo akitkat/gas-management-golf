@@ -79,21 +79,17 @@ export default class CourseDetailApi extends BaseApi {
       // res?.salesTax,
       // res?.courseUseTax,
       // res?.otherTax,
-      // res?.title,
-      // res?.nickName,
-      // res?.prefecture,
-      // res?.age,
-      // res?.sex,
-      // res?.times,
-      // res?.evaluation,
-      // res?.staff,
-      // res?.facility,
-      // res?.meal,
-      // res?.course,
-      // res?.costperformance,
-      // res?.distance,
-      // res?.fairway,
-      // res?.comment  
+
+      res?.ratings[0]?.nickName,
+      res?.ratings[0]?.age,
+      res?.ratings[0]?.sex,
+      res?.ratings[0]?.evaluation,
+      res?.ratings[0]?.comment,
+      res?.ratings[1]?.nickName,
+      res?.ratings[1]?.age,
+      res?.ratings[1]?.sex,
+      res?.ratings[1]?.evaluation,
+      res?.ratings[1]?.comment
     );
   }
 }

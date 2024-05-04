@@ -66,22 +66,17 @@ export default class CourseDetail {
     // salesTax,
     // courseUseTax,
     // otherTax,
-    // title,
-    // nickName,
-    // prefecture,
-    // age,
-    // sex,
-    // times,
-    // evaluation,
-    // staff,
-    // facility,
-    // meal,
-    // course,
-    // costperformance,
-    // distance,
-    // fairway,
-    // comment
-  ) {
+    rating1NickName,
+    rating1Age,
+    rating1Sex,
+    rating1Evaluation,
+    rating1Comment,
+    rating2NickName,
+    rating2Age,
+    rating2Sex,
+    rating2Evaluation,
+    rating2Comment
+    ) {
     this.golfCourseId = golfCourseId;
     this.golfCourseName = golfCourseName;
     this.golfCourseAbbr = golfCourseAbbr;
@@ -148,21 +143,17 @@ export default class CourseDetail {
     // this.salesTax = salesTax;
     // this.courseUseTax = courseUseTax;
     // this.otherTax = otherTax;
-    // this.title = title;
-    // this.nickName = nickName;
-    // this.prefecture = prefecture;
-    // this.age = age;
-    // this.sex = sex;
-    // this.times = times;
-    // this.evaluation = evaluation;
-    // this.staff = staff;
-    // this.facility = facility;
-    // this.meal = meal;
-    // this.course = course;
-    // this.costperformance = costperformance;
-    // this.distance = distance;
-    // this.fairway = fairway;
-    // this.comment = comment;
+
+    this.rating1NickName = rating1NickName;
+    this.rating1Age = rating1Age;
+    this.rating1Sex = rating1Sex;
+    this.rating1Evaluation = rating1Evaluation;
+    this.rating1Comment = rating1Comment;
+    this.rating2NickName = rating2NickName;
+    this.rating2Age = rating2Age;
+    this.rating2Sex = rating2Sex;
+    this.rating2Evaluation = rating2Evaluation;
+    this.rating2Comment = rating2Comment;
   }
 
   toArray() {
@@ -252,6 +243,20 @@ export default class CourseDetail {
       // this.distance,
       // this.fairway,
       // this.comment
+
+      // ratings[0]
+      this.rating1NickName,
+      this.rating1Age,
+      this.rating1Sex,
+      this.rating1Evaluation,
+      this.rating1Comment,
+
+      // ratings[1]
+      this.rating2NickName,
+      this.rating2Age,
+      this.rating2Sex,
+      this.rating2Evaluation,
+      this.rating2Comment,
     ];
   }
 }
