@@ -27,11 +27,13 @@ export default class ExportCourseDetail {
     meal,
     course,
     costperformance,
+    rating1Title,
     rating1NickName,
     rating1Age,
     rating1Sex,
     rating1Evaluation,
     rating1Comment,
+    rating2Title,
     rating2NickName,
     rating2Age,
     rating2Sex,
@@ -71,11 +73,13 @@ export default class ExportCourseDetail {
     this.meal = meal;
     this.course = course;
     this.costperformance = costperformance;
+    this.rating1Title = rating1Title;
     this.rating1NickName = rating1NickName;
     this.rating1Age = rating1Age;
     this.rating1Sex = rating1Sex;
     this.rating1Evaluation = rating1Evaluation;
     this.rating1Comment = rating1Comment;
+    this.rating2Title = rating2Title;
     this.rating2NickName = rating2NickName;
     this.rating2Age = rating2Age;
     this.rating2Sex = rating2Sex;
@@ -118,11 +122,13 @@ export default class ExportCourseDetail {
       this.meal,
       this.course,
       this.costperformance,
+      this.rating1Title,
       this.rating1NickName,
       this.rating1Age,
       this.rating1Sex,
       this.rating1Evaluation,
       this.rating1Comment,
+      this.rating2Title,
       this.rating2NickName,
       this.rating2Age,
       this.rating2Sex,
