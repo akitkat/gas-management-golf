@@ -40,6 +40,7 @@ export default class ExportCourseDetail {
     rating2Evaluation,
     rating2Comment,
     clubCd,
+    accessTrain,
     cartNote,
     hotSpring,
     hotSpringNote,
@@ -86,6 +87,7 @@ export default class ExportCourseDetail {
     this.rating2Evaluation = rating2Evaluation;
     this.rating2Comment = rating2Comment;
     this.clubCd = clubCd;
+    this.accessTrain = accessTrain;
     this.cartNote = cartNote;
     this.hotSpring = hotSpring;
     this.hotSpringNote = hotSpringNote;
@@ -135,6 +137,7 @@ export default class ExportCourseDetail {
       this.rating2Evaluation,
       this.rating2Comment,
       this.clubCd,
+      this.accessTrain,
       this.cartNote,
       this.hotSpring,
       this.hotSpringNote,
