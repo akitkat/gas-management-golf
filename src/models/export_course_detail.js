@@ -6,6 +6,8 @@ export default class ExportCourseDetail {
     information,
     highway,
     ic,
+    latitude,
+    longitude,
     address,
     creditCard,
     shoes,
@@ -53,6 +55,8 @@ export default class ExportCourseDetail {
     this.information = information;
     this.highway = highway;
     this.ic = ic;
+    this.latitude = latitude;
+    this.longitude = longitude;
     this.address = address;
     this.creditCard = creditCard;
     this.shoes = shoes;
@@ -103,6 +107,8 @@ export default class ExportCourseDetail {
       this.information,
       this.highway,
       this.ic,
+      this.latitude,
+      this.longitude,
       this.address,
       this.creditCard,
       this.shoes,
